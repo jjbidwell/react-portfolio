@@ -1,4 +1,6 @@
 import React from "react";
+import {Link, NavLink} from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.js"
 import "jquery/dist/jquery.js"
@@ -6,28 +8,28 @@ import "popper.js";
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a href="https://jjbidwell.github.io/responsive-portfolio/" class="navbar-brand">Joshua Bidwell</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <NavLink to="/" className="navbar-brand">Joshua Bidwell</NavLink>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="https://jjbidwell.github.io/responsive-portfolio/">About</a>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mr-auto">
+      <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="about">About</NavLink>
+        </li>  
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="portfolio">Portfolio</NavLink>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="contact">Contact</NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+        <li className="nav-item">
+          <a className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" href="https://github.com/jjbidwell">GitHub</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://github.com/jjbidwell">GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="assets/Resume.pdf">My Resume</a>
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="resume">My Resume</NavLink>
         </li>
       </ul>
     </div>
