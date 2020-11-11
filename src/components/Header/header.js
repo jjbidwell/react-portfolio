@@ -9,8 +9,8 @@ import "popper.js";
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <NavLink to="/" className="navbar-brand">Joshua Bidwell</NavLink>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <NavLink to="/about" className="navbar-brand">Joshua Bidwell</NavLink>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
   
@@ -29,7 +29,7 @@ function Header() {
           <a className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" href="https://github.com/jjbidwell">GitHub</a>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to="resume">My Resume</NavLink>
+          <a className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1CvPgMRwrgb6Ut9CH2qGEDKuPSFkHyZqwl1zEUyK96s8/">My Resume</a>
         </li>
       </ul>
     </div>

@@ -11,7 +11,7 @@ function App() {
         <Header/>
         <Wrapper>
           <Route exact path="/">
-            <Redirect to="/" />
+            <Redirect to="/about" />
           </Route>
           <Route exact path="/portfolio">
             
