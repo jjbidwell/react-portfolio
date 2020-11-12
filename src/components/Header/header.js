@@ -29,7 +29,7 @@ function Header() {
           <a className="nav-link" activeclassname="active" target="_blank" rel="noreferrer" href="https://github.com/jjbidwell">GitHub</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeclassname="active" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1CvPgMRwrgb6Ut9CH2qGEDKuPSFkHyZqwl1zEUyK96s8/">My Resume</a>
+          <a className="nav-link" activeclassname="active" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/18Ew5gcgIyeOL1FERaQzkfo1csB0VbhD6G2Qfk3lTYio/">My Resume</a>
         </li>
       </ul>
     </div>
