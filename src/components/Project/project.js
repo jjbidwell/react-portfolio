@@ -54,9 +54,9 @@ function Project(){
     return (
         <div>
             {rowNumbers.map((element, index) => {   
-                return <div className = "m-4 row">
+                return <div key={index} className = "m-4 row">
                     {rows[index].map((element, index) => 
-                               <div className="col-lg-4 col-md-4 col-s-12">
+                               <div key={element.name} className="col-lg-4 col-md-4 col-s-12">
                                <div className="card mb-2">
                                  <a className="portfolio-link" href={element.url} target="_blank" rel="noreferrer">
                                    <div className="img-container">
