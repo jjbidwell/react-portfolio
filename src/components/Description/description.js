@@ -13,8 +13,8 @@ function Description(){
                             coding bootcamp. Since then, I have been working as a freelance web developer.</p>
         <p className="about-me">Outside of development, my hobbies include reading, playing music, hiking, watching movies, playing video games, and playing board games. I also have an interest in specialty coffee, and
                             am happy to recommend some of my favorite roasters to anyone who asks. </p>
-        <p className="about-me">If you would like to see some of my other work, please make sure to check out my <a class="bio-link" href="/portfolio" target="_blank">portfolio</a> page. I am knowledgeable in HTML, CSS, JavaScript, Node.Js, React.js, MySql, and MongoDB.
-                            Please don't hesitate to <a class="bio-link" href="/contact" target="_blank">contact me</a> if you have any questions!</p>
+        <p className="about-me">If you would like to see some of my other work, please make sure to check out my <a className="bio-link" href="/portfolio" target="_blank">portfolio</a> page. I am knowledgeable in HTML, CSS, JavaScript, Node.Js, React.js, MySql, and MongoDB.
+                            Please don't hesitate to <a className="bio-link" href="/contact" target="_blank">contact me</a> if you have any questions!</p>
 </main>
 <br/>
 <br/>

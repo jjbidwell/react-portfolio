@@ -13,7 +13,7 @@ function App() {
     <div>
     <Router>
       <div>
-        <Header>
+        <Header/>
         <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />
@@ -29,7 +29,6 @@ function App() {
             <Contact />
           </Route>
         </Wrapper>
-        </Header>
       </div>
     </Router>
     <Footer/>
