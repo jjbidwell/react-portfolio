@@ -4,8 +4,9 @@ import './App.css';
 import Header from "../src/components/Header/header"
 import Wrapper from "../src/components/Wrapper/wrapper"
 import Footer from "./components/Footer/footer";
-import About from "./pages/About/about"
-import Portfolio from "./pages/Portfolio/portfolio"
+import About from "./pages/About/about";
+import Portfolio from "./pages/Portfolio/portfolio";
+import Contact from "./pages/Contact/contact";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             <Portfolio/>
           </Route>
           <Route exact path="/contact">
-            
+            <Contact />
           </Route>
         </Wrapper>
       </div>
