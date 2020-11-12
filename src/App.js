@@ -18,13 +18,13 @@ render(){
           <Route exact path="/">
             <Redirect to="/about" />
           </Route>
-          <Route exact path="/about">
+          <Route path="/about">
           <About />
           </Route>
-          <Route exact path="/portfolio">
+          <Route path="/portfolio">
             <Portfolio/>
           </Route>
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
              
