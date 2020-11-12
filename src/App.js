@@ -11,8 +11,8 @@ import Contact from "./pages/Contact/contact";
 class App extends Component {
 render(){
   return (
+    <div>
     <Router>
-      <div>
       <Header/>
 
           <Route exact path="/">
@@ -29,9 +29,8 @@ render(){
           </Route>
              
     <Footer/>
-    </div>
     </Router>
-  
+    </div>
   );
 }
 }
