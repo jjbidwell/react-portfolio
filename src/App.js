@@ -14,7 +14,7 @@ render(){
     <div>
     <Router>
       <Header/>
-
+        <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />
           </Route>
@@ -27,7 +27,7 @@ render(){
           <Route path="/contact">
             <Contact />
           </Route>
-             
+          </Wrapper>
     <Footer/>
     </Router>
     </div>
