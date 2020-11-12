@@ -29,7 +29,7 @@ render(){
             <Contact />
           </Route>
           </Switch>
-          </Wrapper>
+        </Wrapper>
     <Footer/>
     </Router>
     </div>
