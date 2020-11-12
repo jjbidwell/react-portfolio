@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css"
 
 
@@ -7,11 +8,11 @@ function Footer() {
     <footer className="text-center border-top border-dark footer bg-light fixed-bottom">
         <div className="container pt-4">
             <span>
-                <a className="footer-text footer-link" href="/about"> About </a>
+                <NavLink className="footer-text footer-link" to="about"> About </NavLink>
                  | 
-                <a className="footer-text footer-link" href="/portfolio"> Portfolio </a>
+                <NavLink className="footer-text footer-link" to="portfolio"> Portfolio </NavLink>
                  | 
-                <a className="footer-text footer-link" href="/contact"> Contact </a>
+                <NavLink className="footer-text footer-link" to="contact"> Contact </NavLink>
             </span>
             <p className="footer-text">	&copy; 2020</p>
         </div>
