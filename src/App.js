@@ -10,14 +10,12 @@ import Contact from "./pages/Contact/contact";
 
 function App() {
   return (
-    <div>
     <Router>
       <div>
-        <Header/>
-        <Wrapper>
+      <Header/>
+      <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />
-
           </Route>
           <Route exact path="/about">
           <About />
@@ -28,11 +26,11 @@ function App() {
           <Route exact path="/contact">
             <Contact />
           </Route>
-        </Wrapper>
-      </div>
-    </Router>
+        </Wrapper>      
     <Footer/>
     </div>
+    </Router>
+  
   );
 }
 
