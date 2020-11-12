@@ -5,6 +5,8 @@ import Header from "../src/components/Header/header"
 import Wrapper from "../src/components/Wrapper/wrapper"
 import Footer from "./components/Footer/footer";
 import About from "./pages/About/about"
+import Portfolio from "./pages/Portfolio/portfolio"
+
 function App() {
   return (
     <div>
@@ -20,7 +22,7 @@ function App() {
           <About />
           </Route>
           <Route exact path="/portfolio">
-            
+            <Portfolio/>
           </Route>
           <Route exact path="/contact">
             

@@ -17,19 +17,19 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to="about">About</NavLink>
+          <NavLink className="nav-link" activeclassname="active" to="about">About</NavLink>
         </li>  
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to="portfolio">Portfolio</NavLink>
+          <NavLink className="nav-link" activeclassname="active" to="portfolio">Portfolio</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to="contact">Contact</NavLink>
+          <NavLink className="nav-link" activeclassname="active" to="contact">Contact</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" href="https://github.com/jjbidwell">GitHub</a>
+          <a className="nav-link" activeclassname="active" target="_blank" rel="noreferrer" href="https://github.com/jjbidwell">GitHub</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1CvPgMRwrgb6Ut9CH2qGEDKuPSFkHyZqwl1zEUyK96s8/">My Resume</a>
+          <a className="nav-link" activeclassname="active" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1CvPgMRwrgb6Ut9CH2qGEDKuPSFkHyZqwl1zEUyK96s8/">My Resume</a>
         </li>
       </ul>
     </div>
